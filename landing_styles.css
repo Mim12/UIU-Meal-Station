@@ -1,0 +1,95 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+body
+{
+    position: relative;
+    background-image: url("BG.jpg");
+    background-repeat: none;
+    background-size: 1920px 1080px;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo
+{
+    width: 100px;
+    margin-right: 20px;
+    margin-left: -35px;
+    cursor: pointer;
+}
+.nav-left, .nav-right, .nav-middle
+{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-middle ul li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    color: #161009;
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-middle a
+{
+    text-decoration: none;
+    color: #161009;
+
+}
+.nav-middle a:hover
+{
+    color: #FF8710;
+}
+.user img
+{
+    width: 50px;
+    cursor: pointer;
+}
+
+div.container{
+    display: inline-block;
+}
+p{
+    margin-top: 300px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 80px;
+    color: #FF8710;
+}
+h1{
+    margin-top: -55px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 103px;
+    
+}
+a{
+    text-decoration: none;
+    color: #FF8710;
+}
+small
+{
+    margin-left: 20px;
+    height: 30px;
+    width: 213px;
+    font-size: 20px;
+}
+.footer img
+{
+    margin-top: 250px;
+    width: 100%;
+}
