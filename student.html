@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> Student Profile
+        </title>
+        <link rel="stylesheet" href="student.css">
+    </head>
+    
+     <body>
+         <div class="container">
+             <div class="card">
+                 <div class="inner-box" id="card">
+                     <div class="card-front">
+                         <h2> Student Profile </h2>
+                          <form><input type = "Name" class="input-box" placeholder="Your Name" required>
+                              <input type = "Email Address" class="input-box" placeholder="Email Address" required>
+                              <input type = "Student ID" class="input-box" placeholder="Student ID" required>
+                              <input type = "Password" class="input-box" placeholder="Password" required>
+                              <input type="checkbox"><span>Remember me</span>
+                         </form>
+                         
+                        
+                              
+                     </div>
+                     
+                 </div>
+             </div>
+         </div>
+        
+       
+         <script>
+             
+             var card = document.getElementById("card");
+             
+             function openRegister(){
+                 card.style.transform = "rotateY(-180deg)";
+                 }
+             
+              function openLogin(){
+                 card.style.transform = "rotateY(0deg)";
+                 }
+             
+         </script>
+         
+         
+         
+</body>    
+</html>
