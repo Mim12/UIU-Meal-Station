@@ -1,0 +1,147 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("/img/BG.jpg");
+    background-repeat: none;
+    background-size: 1920px 1080px;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo
+{
+    width: 100px;
+    margin-right: 20px;
+    margin-left: -35px;
+    cursor: pointer;
+}
+.nav-left, .nav-right, .nav-middle
+{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-middle ul li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-middle a
+{
+    text-decoration: none;
+    color: #161009;
+
+}
+.nav-middle a:hover
+{
+    color: #FF8710;
+}
+.user img
+{
+    width: 50px;
+    cursor: pointer;
+}
+.container
+{
+    display: flex;
+}
+.left
+{
+    flex-basis: 15%;
+    margin-left: 70px;
+    margin-top: 120px
+}
+.signup-form
+{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.alt_signup
+{
+    text-align: center;
+}
+h1
+{
+    font-weight: 600;
+    font-size: 48px;
+    color: #FF8710;
+    margin-bottom: 20px;
+
+}
+input
+{
+    border: 1px solid #ccc;
+    height: 52px;
+    width: 317px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+
+}
+input::placeholder
+{
+    color: #cecece;
+    font-size: 18px;
+    padding-left: 20px;
+}
+a
+{
+    text-decoration: none;
+}
+button
+{
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    height: 52px;
+    width: 317px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #00D021;
+}
+small
+{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.footer img
+{
+    margin-top: 450px;
+    width: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 5px 0  0 350px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
