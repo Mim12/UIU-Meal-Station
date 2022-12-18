@@ -4,7 +4,7 @@ session_start();
 
 $conn = mysqli_connect('localhost','root','','uiu_meal_station');
 
-$sql = "SELECT * FROM student";
+$sql = "SELECT * FROM faculty";
 $result = mysqli_query($conn, $sql);
 ?>
 
@@ -20,15 +20,15 @@ $result = mysqli_query($conn, $sql);
 <body>
     <nav>
         <div class="nav-left">
-           <a href="landing.php"><img src="img/UIUMS.png" class="logo"></a> 
+           <a href="landing.php"><img src="../img/UIUMS.png" class="logo"></a> 
         </div>
         <div class="nav-middle">
             <ul>
-                <li><a href="Login.php">Login</a></li>
+                <li><a href="login.php">Login</a></li>
             </ul>
         </div>
         <div class="nav-right">
-            <div class="user online"><img src="img/user.png"></div>
+            <div class="user online"><img src="../img/user.png"></div>
         </div>
     </nav>
     <div class="container">
@@ -37,7 +37,7 @@ $result = mysqli_query($conn, $sql);
         <small>Already a member? <a href="login.php">Login here.</a></small>
     </div>
     <footer>
-        <div class="footer"><img src="img/footer.png"></div>
+        <div class="footer"><img src="../img/footer.png"></div>
     </footer> 
 </body>
 </html>

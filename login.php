@@ -2,7 +2,7 @@
 session_start();
 $conn = mysqli_connect('localhost','root','','uiu_meal_station');
 
-$sql = "SELECT * FROM student";
+$sql = "SELECT * FROM faculty";
 $result = mysqli_query($conn,$sql);
 
 
@@ -32,15 +32,10 @@ $result = mysqli_query($conn,$sql);
          <?php  } ?>
     <nav>
         <div class="nav-left">
-            <a href="landing.php"><img src="img/UIUMS.png" class="logo"></a> 
-        </div>
-        <div class="nav-middle">
-            <ul>
-                <li><a href="signup.php">Signup</a></li>
-            </ul>
+            <a href="login.php"><img src="../img/UIUMS.png" class="logo"></a> 
         </div>
         <div class="nav-right">
-            <div class="user online"><img src="img/user.png"></div>
+            <div class="user online"><img src="../img/user.png"></div>
         </div>
     </nav> 
     <div class="container">
@@ -48,7 +43,7 @@ $result = mysqli_query($conn,$sql);
             <div class="login-form">
                 <h1>Login</h1>
                 <form action="confirm_login.php" method="post">
-                <input required type="email" placeholder="Student Email, Faculty Email" name="email"><br>
+                <input required type="email" placeholder="Email" name="email"><br>
                 <input required type="password" placeholder="Password" name="password"><br>
                 <button style="color:white;">Login</a></button>
                 </form>
@@ -56,7 +51,7 @@ $result = mysqli_query($conn,$sql);
         </div>
     </div>
     <footer>
-        <div class="footer"><img src="img/footer.png"></div>
+        <div class="footer"><img src="../img/footer.png"></div>
     </footer>    
 </body>
 </html>
