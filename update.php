@@ -1,6 +1,5 @@
 <?php
 $food_id= $_GET['food_id'];
-
 $food_name=$_POST['food_name'];
 $food_type=$_POST['food_type'];
 $food_price=$_POST['food_price'];

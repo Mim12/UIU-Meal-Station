@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 $student_id= $_SESSION['student_id'];
@@ -31,7 +30,7 @@ $result = mysqli_query($conn, $sql);
 
 <nav>
         <div class="nav-left">
-            <a href="menu.php"><img src="img/UIUMS.png" class="logo"></a> 
+            <a href="menu.php"><img src="../img/UIUMS.png" class="logo"></a> 
         </div>
         <div class="nav-middle">
             <ul>
@@ -39,7 +38,7 @@ $result = mysqli_query($conn, $sql);
             </ul>
         </div>
         <div class="nav-right">
-            <div class="user online"><img src="img/user.png"></div>
+            <div class="user online"><img src="../img/user.png"></div>
         </div>
     </nav> 
 
