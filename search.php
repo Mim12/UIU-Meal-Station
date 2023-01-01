@@ -46,7 +46,7 @@ $conn = mysqli_connect('localhost','root','','uiu_meal_station');
                 echo "<h4> <b>".$keyword_row['food_name']."</b></h4>";
                 echo "<p> Food Type: ".$keyword_row['food_type']."</p>";
                 echo "<p> Food Price: ".$keyword_row['food_price']."</p>";
-                echo "<a class ='btn btn-info' href='order.php' '?food_id=".$keyword_row['food_id']."'>Order</a> <br>";
+                echo "<a class ='btn btn-info' href='?food_id=".$keyword_row['food_id']."'>Order</a> <br>";
               
             }
             echo "<hr>";
